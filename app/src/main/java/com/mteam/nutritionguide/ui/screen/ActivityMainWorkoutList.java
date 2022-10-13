@@ -21,8 +21,6 @@ import java.util.Map;
 public class ActivityMainWorkoutList extends AbstractFragment {
 
 	private TextView mTitle;
-	
-	private View mBack;
 
 	private ListView mWorkoutList;
 
@@ -36,7 +34,7 @@ public class ActivityMainWorkoutList extends AbstractFragment {
 		
 		mTitle = (TextView) view.findViewById(R.id.title);
 		mWorkoutList = (ListView) view.findViewById(R.id.workouts);
-		mBack = view.findViewById(R.id.imgBack);
+		View mBack = view.findViewById(R.id.imgBack);
 		initData();
 		MainWorkoutListScreenEventHandler eventHandler = new MainWorkoutListScreenEventHandler(this,getContext());
 		mBack.setOnClickListener(eventHandler);
