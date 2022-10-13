@@ -44,7 +44,7 @@ public class ActivityMenu extends Fragment {
 		mImgPremium = (ImageView) view.findViewById(R.id.imgPremium);
 		mLayoutMain = (RelativeLayout) view.findViewById(R.id.layoutMain);
 		mLayoutPremium = (RelativeLayout) view.findViewById(R.id.layoutPremium);
-		mLayoutSport = (RelativeLayout) view.findViewById(R.id.layoutSport);
+		//mLayoutSport = (RelativeLayout) view.findViewById(R.id.layoutSport);
 		mTxtNameMain = (TextView) view.findViewById(R.id.txtNameMain);
 		//mNameMainSub = (TextView) view.findViewById(R.id.txtNameMainSub);
 		mNamePremium = (TextView) view.findViewById(R.id.txtNamePremium);
@@ -56,7 +56,7 @@ public class ActivityMenu extends Fragment {
 		MenuScreenEventHandler eventHandler = new MenuScreenEventHandler(this);
 		mLayoutMain.setOnClickListener(eventHandler);
 		mLayoutPremium.setOnClickListener(eventHandler);
-		mLayoutSport.setOnClickListener(eventHandler);
+	//x	mLayoutSport.setOnClickListener(eventHandler);
 
 		RelativeLayout menubarLayout = (RelativeLayout) getActivity().findViewById(R.id.menubarLayout);
 		menubarLayout.setVisibility(View.VISIBLE);

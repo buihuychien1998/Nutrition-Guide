@@ -36,9 +36,9 @@ public class MenuScreenEventHandler implements OnClickListener {
 				openPremiumWorkoutList(transaction);
 				break;
 
-			case R.id.layoutSport:
-				openLayoutSport(transaction);
-				break;
+//			case R.id.layoutSport:
+//				openLayoutSport(transaction);
+//				break;
 		}
 		
 		// Commit the transaction
@@ -55,9 +55,9 @@ public class MenuScreenEventHandler implements OnClickListener {
 		transaction.replace(R.id.fragment, new ActivityPremiumWorkoutList(), Params.PREMIUM_WORKOUT_LIST_SCREEN);
 	}
 
-	private void openLayoutSport(FragmentTransaction transaction) {
-		FxpApp.isMainWorkout = false;
-		transaction.replace(R.id.fragment, new ActivityListSport(), Params.SPORT_WORKOUT_LIST_SCREEN);
-	}
+//	private void openLayoutSport(FragmentTransaction transaction) {
+//		FxpApp.isMainWorkout = false;
+//		transaction.replace(R.id.fragment, new ActivityListSport(), Params.SPORT_WORKOUT_LIST_SCREEN);
+//	}
 
 }

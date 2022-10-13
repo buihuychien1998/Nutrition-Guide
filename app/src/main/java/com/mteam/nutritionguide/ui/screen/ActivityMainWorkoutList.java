@@ -55,9 +55,9 @@ public class ActivityMainWorkoutList extends AbstractFragment {
 	}
 
 	private void initData() {
-		items.add(new Item(getString(R.string.beef),
-				"https://upload.wikimedia.org/wikipedia/commons/a/a3/Rostas_%28ready_and_served%29.JPG",
-				getString(R.string.uuuuu)));
+		items.add(new Item("Tuna",
+				"https://www.thespruceeats.com/thmb/x2CccLs17Ve1vmehwA7kieBBFX8=/1800x1800/smart/filters:no_upscale()/tunaloinsteak_getty2400-58a4b82c3df78c4758e06bbb.jpg",
+				"Tuna are remarkable and impressive wild animals. The Atlantic bluefin can reach ten feet in length and weigh as much as 2000 pounds (more than a horse)"));
 
 		items.add(new Item("Lamb",
 				"https://www.simplyrecipes.com/thmb/BPNd4q6CBB_uuNz35kOm2C76HwA=/3733x3733/smart/filters:no_upscale()/Simply_Recipes_Classic_Lamb_Rack_LEAD-1-de5b82ea21514161ac9e272ec456480b.jpg",
