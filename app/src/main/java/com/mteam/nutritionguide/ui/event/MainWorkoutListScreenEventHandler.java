@@ -51,7 +51,7 @@ public class MainWorkoutListScreenEventHandler extends BaseEventHandler implemen
 
 	public MainWorkoutListScreenEventHandler(ActivityMainWorkoutList activityWorkoutList, Context context) {
 		super(activityWorkoutList);
-
+		this.activity = activityWorkoutList.getActivity();
 		fragmentManager = activityWorkoutList.getActivity().getSupportFragmentManager();
 		this.context = context;
 		billingClient = BillingClient.newBuilder(context)

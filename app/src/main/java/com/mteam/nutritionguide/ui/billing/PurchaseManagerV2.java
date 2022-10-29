@@ -19,11 +19,11 @@ public class PurchaseManagerV2 {
 	//private static final String LICENSE_KEY = BuildConfig.licenceKey; // PUT YOUR MERCHANT KEY HERE;
 //	public static IapConnector iapConnector;
 	static {
-		productIds.put("Beef", "beef");
-		productIds.put("Shrimp", "shrimp");
+		productIds.put("Tuna", "tuna");
+		productIds.put("Lamb", "lamb");
 		productIds.put("Crab", "crab");
-		productIds.put("Broccoli", "broccoli");
-		productIds.put("Chicken", "chicken");
+		productIds.put("Salmon", "salmon");
+		productIds.put("Radish", "radish");
 		productIds.put("Potato","potato");
 	}
 
